@@ -1,0 +1,75 @@
+<idea-plugin>
+    <id>tompii</id>
+    <name>Mcdo Plugin</name>
+    <vendor>Tompii</vendor>
+    <version>1.0.0</version>
+
+    <depends>com.intellij.modules.platform</depends>
+
+<description><![CDATA[
+    <h2>Personnalisez votre barre de progression avec un thème McDonald's.</h2>
+
+    <h3>Configuration</h3>
+    <p><em>Settings</em> → <em>Tools</em> → <strong>Mcdo Plugin</strong> pour ajuster les préférences.</p>
+
+    <h3>Personnages et arrière-plans disponibles</h3>
+    <ul>
+        <li><strong>Personnages pour les chargements indéterminés :</strong></li>
+        <ul>
+            <li>Burger animé</li>
+            <li>Pancarte McDonald's animée</li>
+        </ul>
+        <li><strong>Arrières-plans pour les chargements déterminés :</strong></li>
+        <ul>
+            <li>Logo McDonald's</li>
+            <li>Fond transparent</li>
+        </ul>
+    </ul>
+]]></description>
+
+
+<change-notes><![CDATA[
+    <ul>
+        <li>
+            <b>
+                <a>1.0.0</a>
+            </b>
+            <!--1.0.0-->
+            <ul>
+                <li>Ajout d'une barre de progression sur le thème de McDonald's, avec prise en charge des barres de progression déterminées et indéterminées.</li>
+                <li>Ajout de personnages :</li>
+                <ul>
+                    <li>Burger animé</li>
+                    <li>Pancarte McDonald's animée</li>
+                </ul>
+                <li>Ajout d'arrières-plans :</li>
+                <ul>
+                    <li>Logo McDonald's</li>
+                    <li>Fond transparent</li>
+                </ul>
+            </ul>
+            <!--/1.0.0-->
+        </li>
+    </ul>
+]]></change-notes>
+
+
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService
+                serviceImplementation="tompii.config.ProgressBarSettingsState"/>
+        <applicationConfigurable
+                instance="tompii.config.ProgressBarConfigurable"
+                id="org.intellij.sdk.settings.AppSettingsConfigurable"
+                dynamic="true"
+                parentId="tools"
+                displayName="Mcdo Plugin"/>
+    </extensions>
+
+    <applicationListeners>
+        <listener class="tompii.ProgressBarLafManagerListener"
+                  topic="com.intellij.ide.ui.LafManagerListener"/>
+        <listener class="tompii.ProgressBarLafManagerListener"
+                  topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+    </applicationListeners>
+</idea-plugin>
