@@ -1,58 +1,62 @@
 <idea-plugin>
     <id>tompii</id>
-    <name>Mcdo Plugin</name>
+    <name>Mcdonald's</name>
     <vendor>Tompii</vendor>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <depends>com.intellij.modules.platform</depends>
 
-<description><![CDATA[
-    <h2>Personnalisez votre barre de progression avec un thème McDonald's.</h2>
+
+    <description><![CDATA[
+    <h2>Customize your progress bar with a McDonald's theme.</h2>
 
     <h3>Configuration</h3>
-    <p><em>Settings</em> → <em>Tools</em> → <strong>Mcdo Plugin</strong> pour ajuster les préférences.</p>
+    <p><em>Settings</em> → <em>Tools</em> → <strong>Mcdo Plugin</strong> to adjust preferences.</p>
 
-    <h3>Personnages et arrière-plans disponibles</h3>
+    <h3>Available Characters and Backgrounds</h3>
     <ul>
-        <li><strong>Personnages pour les chargements indéterminés :</strong></li>
+        <li><strong>Characters for indeterminate loads:</strong></li>
         <ul>
-            <li>Burger animé</li>
-            <li>Pancarte McDonald's animée</li>
+            <li>Animated burger</li>
+            <li>Animated McDonald's sign</li>
         </ul>
-        <li><strong>Arrières-plans pour les chargements déterminés :</strong></li>
+        <li><strong>Backgrounds for determinate loads:</strong></li>
         <ul>
-            <li>Logo McDonald's</li>
-            <li>Fond transparent</li>
+            <li>McDonald's logo</li>
+            <li>Transparent background</li>
         </ul>
     </ul>
+    <p>All image rights are owned by McDonald's.</p>
 ]]></description>
 
 
-<change-notes><![CDATA[
+    <change-notes><![CDATA[
     <ul>
         <li>
-            <b>
-                <a>1.0.0</a>
-            </b>
-            <!--1.0.0-->
+            <b><a>1.0.1</a></b>
             <ul>
-                <li>Ajout d'une barre de progression sur le thème de McDonald's, avec prise en charge des barres de progression déterminées et indéterminées.</li>
-                <li>Ajout de personnages :</li>
+                <li>Use English for plugin description</li>
+            </ul>
+        </li>
+        <li>
+            <b><a>1.0.0</a></b>
+            <ul>
+                <li>Added a McDonald's-themed progress bar, supporting determinate and indeterminate progress bars.</li>
+                <li>Added characters:</li>
                 <ul>
-                    <li>Burger animé</li>
-                    <li>Pancarte McDonald's animée</li>
+                    <li>Animated burger</li>
+                    <li>Animated McDonald's sign</li>
                 </ul>
-                <li>Ajout d'arrières-plans :</li>
+                <li>Added backgrounds:</li>
                 <ul>
-                    <li>Logo McDonald's</li>
-                    <li>Fond transparent</li>
+                    <li>McDonald's logo</li>
+                    <li>Transparent background</li>
                 </ul>
             </ul>
-            <!--/1.0.0-->
         </li>
     </ul>
-]]></change-notes>
 
+]]></change-notes>
 
 
     <extensions defaultExtensionNs="com.intellij">
