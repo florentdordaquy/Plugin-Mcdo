@@ -1,4 +1,4 @@
-package tompii;
+package mcdonalds;
 
 import javax.swing.ImageIcon;
 

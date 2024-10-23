@@ -1,9 +1,8 @@
-package tompii.config;
+package mcdonalds.config;
 
 import com.intellij.openapi.options.Configurable;
 import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.Nullable;
-
 import javax.swing.JComponent;
 
 public class ProgressBarConfigurable implements Configurable {

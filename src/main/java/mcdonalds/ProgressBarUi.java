@@ -1,4 +1,4 @@
-package tompii;
+package mcdonalds;
 
 import com.intellij.openapi.ui.GraphicsConfig;
 import com.intellij.ui.Gray;
@@ -7,7 +7,7 @@ import com.intellij.ui.scale.JBUIScale;
 import com.intellij.util.ui.GraphicsUtil;
 import com.intellij.util.ui.JBUI;
 import com.intellij.util.ui.UIUtil;
-import tompii.config.ProgressBarSettingsState;
+import mcdonalds.config.ProgressBarSettingsState;
 
 import javax.swing.JComponent;
 import javax.swing.SwingConstants;

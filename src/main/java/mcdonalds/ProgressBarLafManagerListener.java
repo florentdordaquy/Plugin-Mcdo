@@ -1,4 +1,4 @@
-package tompii;
+package mcdonalds;
 
 import com.intellij.ide.ui.LafManager;
 import com.intellij.ide.ui.LafManagerListener;

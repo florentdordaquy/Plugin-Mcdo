@@ -1,13 +1,13 @@
-package tompii.config;
+package mcdonalds.config;
 
 import com.intellij.ui.components.JBLabel;
 import com.intellij.ui.components.JBRadioButton;
 import com.intellij.util.ui.FormBuilder;
 import com.intellij.util.ui.UIUtil;
 import org.jetbrains.annotations.NotNull;
-import tompii.McdoImg;
-import static tompii.McdoImg.PANCARTE;
-import static tompii.McdoImg.TRANSPARENT;
+import mcdonalds.McdoImg;
+import static mcdonalds.McdoImg.PANCARTE;
+import static mcdonalds.McdoImg.TRANSPARENT;
 
 import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;

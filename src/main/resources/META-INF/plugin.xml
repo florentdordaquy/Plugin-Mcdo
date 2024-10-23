@@ -1,7 +1,7 @@
 <idea-plugin>
-    <id>tompii</id>
+    <id>mcdonalds</id>
     <name>Mcdonald's</name>
-    <vendor>Tompii</vendor>
+    <vendor>Mcdonald's Theme</vendor>
     <version>1.0.1</version>
 
     <depends>com.intellij.modules.platform</depends>
@@ -61,9 +61,9 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService
-                serviceImplementation="tompii.config.ProgressBarSettingsState"/>
+                serviceImplementation="mcdonalds.config.ProgressBarSettingsState"/>
         <applicationConfigurable
-                instance="tompii.config.ProgressBarConfigurable"
+                instance="mcdonalds.config.ProgressBarConfigurable"
                 id="org.intellij.sdk.settings.AppSettingsConfigurable"
                 dynamic="true"
                 parentId="tools"
@@ -71,9 +71,9 @@
     </extensions>
 
     <applicationListeners>
-        <listener class="tompii.ProgressBarLafManagerListener"
+        <listener class="mcdonalds.ProgressBarLafManagerListener"
                   topic="com.intellij.ide.ui.LafManagerListener"/>
-        <listener class="tompii.ProgressBarLafManagerListener"
+        <listener class="mcdonalds.ProgressBarLafManagerListener"
                   topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
 </idea-plugin>

@@ -1,15 +1,15 @@
-package tompii.config;
+package mcdonalds.config;
 
 import com.intellij.openapi.components.PersistentStateComponent;
 import com.intellij.openapi.components.State;
 import com.intellij.openapi.components.Storage;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import tompii.McdoImg;
+import mcdonalds.McdoImg;
 
 
 @State(
-        name = "tompii.config.ProgressBarSettingsState",
+        name = "mcdonalds.config.ProgressBarSettingsState",
         storages = @Storage("ProgressBarPluginSettings.xml")
 )
 public class ProgressBarSettingsState implements PersistentStateComponent<ProgressBarSettingsState> {
