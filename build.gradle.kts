@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
   intellijPlatform {
-    intellijIdeaCommunity("2024.2.0.1")
+    intellijIdeaCommunity("2024.3")
     bundledPlugin("com.intellij.java")
     pluginVerifier()
     zipSigner()

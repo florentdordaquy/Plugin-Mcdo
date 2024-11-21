@@ -2,7 +2,7 @@
     <id>mcdonalds</id>
     <name>Mcdonald's</name>
     <vendor>Mcdonald's Theme</vendor>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <depends>com.intellij.modules.platform</depends>
 
@@ -32,6 +32,12 @@
 
     <change-notes><![CDATA[
     <ul>
+        <li>
+            <b><a>1.0.2</a></b>
+            <ul>
+                <li>Update plugin for IDE 242 + versions</li>
+            </ul>
+        </li>
         <li>
             <b><a>1.0.1</a></b>
             <ul>
