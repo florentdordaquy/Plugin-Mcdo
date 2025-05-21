@@ -4,8 +4,8 @@ val javaVersion: String by project
 val pluginVerifierIdeVersions: String by project
 
 plugins {
-  java
-  id("org.jetbrains.intellij.platform") version "2.0.1"
+    java
+    id("org.jetbrains.intellij.platform") version "2.6.0"
 }
 
 repositories {
@@ -18,19 +18,19 @@ repositories {
 }
 
 dependencies {
-  intellijPlatform {
-    intellijIdeaCommunity("2024.3")
-    bundledPlugin("com.intellij.java")
-    pluginVerifier()
-    zipSigner()
-    instrumentationTools()
+    intellijPlatform {
+        intellijIdeaCommunity("2025.1")
+        bundledPlugin("com.intellij.java")
+        pluginVerifier()
+        zipSigner()
+        instrumentationTools()
     }
 
 }
 
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
